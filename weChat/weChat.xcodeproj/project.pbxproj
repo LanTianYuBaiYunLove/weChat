@@ -16,6 +16,7 @@
 		C2092EA31DCDBB4C000B24A5 /* weChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2092EA21DCDBB4C000B24A5 /* weChatTests.m */; };
 		C2092EAE1DCDBB4C000B24A5 /* weChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2092EAD1DCDBB4C000B24A5 /* weChatUITests.m */; };
 		C2092EBD1DCDBC28000B24A5 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = C2092EBC1DCDBC28000B24A5 /* Dog.m */; };
+		C20DEDF71E0AB21700207BEC /* erjgtidgsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20DEDF61E0AB21700207BEC /* erjgtidgsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		C2092EAF1DCDBB4C000B24A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2092EBB1DCDBC28000B24A5 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		C2092EBC1DCDBC28000B24A5 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		C20DEDF51E0AB21700207BEC /* erjgtidgsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = erjgtidgsViewController.h; sourceTree = "<group>"; };
+		C20DEDF61E0AB21700207BEC /* erjgtidgsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = erjgtidgsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				C2092E8C1DCDBB4C000B24A5 /* AppDelegate.m */,
 				C2092E8E1DCDBB4C000B24A5 /* ViewController.h */,
 				C2092E8F1DCDBB4C000B24A5 /* ViewController.m */,
+				C20DEDF51E0AB21700207BEC /* erjgtidgsViewController.h */,
+				C20DEDF61E0AB21700207BEC /* erjgtidgsViewController.m */,
 				C2092EBB1DCDBC28000B24A5 /* Dog.h */,
 				C2092EBC1DCDBC28000B24A5 /* Dog.m */,
 				C2092E911DCDBB4C000B24A5 /* Main.storyboard */,
@@ -277,6 +282,7 @@
 			files = (
 				C2092E901DCDBB4C000B24A5 /* ViewController.m in Sources */,
 				C2092E8D1DCDBB4C000B24A5 /* AppDelegate.m in Sources */,
+				C20DEDF71E0AB21700207BEC /* erjgtidgsViewController.m in Sources */,
 				C2092EBD1DCDBC28000B24A5 /* Dog.m in Sources */,
 				C2092E8A1DCDBB4C000B24A5 /* main.m in Sources */,
 			);
@@ -504,6 +510,7 @@
 				C2092EB41DCDBB4C000B24A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2092EB51DCDBB4C000B24A5 /* Build configuration list for PBXNativeTarget "weChatTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +519,7 @@
 				C2092EB71DCDBB4C000B24A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2092EB81DCDBB4C000B24A5 /* Build configuration list for PBXNativeTarget "weChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +528,7 @@
 				C2092EBA1DCDBB4C000B24A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
